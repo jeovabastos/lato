@@ -33,3 +33,26 @@ nav ul li a{
     display: block;
     width: 100%;
 }
+
+.presentation{
+    margin-top: 2rem;
+    margin-inline: 4rem;
+}
+
+.presentation section{
+    display: flex;
+}
+
+.presentation section img{
+    display: block;
+    padding: 0.5rem;
+    width: 50%;
+}
+
+.presentation section p{
+    text-align: justify;
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    width: 50%;
+}
