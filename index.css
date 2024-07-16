@@ -2,4 +2,34 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 28px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    display: block;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    padding: 1rem;
+    margin-inline: 1rem;
+}
+
+.hero-img img{
+    display: block;
+    width: 100%;
 }
