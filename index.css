@@ -56,3 +56,34 @@ nav ul li a{
     align-items: center;
     width: 50%;
 }
+
+h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.solutions-slider{
+    display: flex;
+    margin-inline: 4rem;
+}
+
+.solutions-slider div{
+    padding: 0 1rem;
+    /* border: 1px solid #4d4d4d; */
+}
+
+.solutions-slider div img{
+    display: block;
+    width: 100%;
+}
+
+.solutions-slider div p{
+    padding: 1rem 0;
+}
+
+.mission section{
+    display: flex;
+}
